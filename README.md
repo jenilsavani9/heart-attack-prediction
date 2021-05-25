@@ -7,3 +7,31 @@ A heart attack (often called a myocardial infarction) occurs when the heart musc
 this model has around 87% accuracy
 
 Find Dataset [Here](https://www.kaggle.com/rashikrahmanpritom/heart-attack-analysis-prediction-dataset)
+
+### project setup
+
+clone repository - 
+```python
+git clone https://github.com/jenilsavani9/heart-attack-prediction
+```
+
+navigate into heart-attack-prediction folder
+```python
+cd /path/to/heart-attack-prediction
+```
+
+start a virtual environment
+```python
+virtualenv heart
+source heart/bin/activate
+```
+
+install the packeges
+```python
+pip install -r requirements.txt
+```
+
+start a local server
+```python
+python3 app.py
+```
